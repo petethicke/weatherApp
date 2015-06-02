@@ -30,7 +30,7 @@ input {
   outline: none;
 }
 
-input[type=search] {
+#search {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box;
   font-size: 100%;
@@ -42,7 +42,7 @@ input::-webkit-search-cancel-button {
   display: none; 
 }
 
-input[type=search] {
+#search {
   background: #e6e6e6 url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
   opacity: 0.8;
   border: solid 1px #ccc;
@@ -58,7 +58,7 @@ input[type=search] {
   transition: all .5s;
 }
 
-input[type=search]:focus {
+#search:focus {
   width: 130px;
   background-color: #fff;
   border-color: #3083FF;
