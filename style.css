@@ -1,10 +1,7 @@
 body {
   background-image: url(https://download.unsplash.com/photo-1428908728789-d2de25dbd4e2);
   background-size: 100%;
-  color: #666;
-  font: 90%/180% Arial, Helvetica, sans-serif;
-  max-width: 96%;
-  margin: 0 auto;
+  color: #4c4c4c;
 }
 
 #title {
@@ -14,16 +11,27 @@ body {
   font-size: 3rem;
 }
 
-#form {
+#searchForm {
   text-align: center;
-  display: block;
-  margin: 0 auto;
 }
 
 #city {
-  margin-bottom: -20px;
+  margin-bottom: -15px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
+}
+
+#results {
+  width: 40%;
+  max-height: 5rem;
+  margin: 0 auto;
+}
+
+#results li {
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  padding: 5px;
 }
 
 input {
@@ -31,23 +39,13 @@ input {
 }
 
 #search {
-  -webkit-appearance: textfield;
-  -webkit-box-sizing: content-box;
   font-size: 100%;
-  color: #4c4c4c;
-}
-
-input::-webkit-search-decoration,
-input::-webkit-search-cancel-button {
-  display: none; 
-}
-
-#search {
   background: #e6e6e6 url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
   opacity: 0.8;
   border: solid 1px #ccc;
   padding: 9px 10px 9px 32px;
   width: 55px;
+  margin-bottom: 10px; 
   
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
@@ -68,10 +66,3 @@ input::-webkit-search-cancel-button {
   box-shadow: 0 0 5px rgba(109,207,246,.5);
 }
 
-input:-moz-placeholder {
-  color: #999;
-}
-
-input::-webkit-input-placeholder {
-  color: #999;
-}
