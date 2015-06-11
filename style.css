@@ -34,6 +34,19 @@ body {
   padding: 5px;
 }
 
+#btn {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFF;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  border-radius: 5em;
+  opacity: 0.4;
+  border: solid 1px #ccc;
+  width: auto;
+  height: auto;
+  font-size: 1rem;
+}
+
 input {
   outline: none;
 }
